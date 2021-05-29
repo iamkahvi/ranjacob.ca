@@ -6,3 +6,6 @@ layout: home
 ---
 
 # ranjacob.ca
+### <a href="https://www.instagram.com/ranjacob/" target="_blank">instagram</a>
+
+(refresh the page to shuffle the images)

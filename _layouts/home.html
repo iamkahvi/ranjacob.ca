@@ -9,9 +9,11 @@ layout: default
 
   {{ content }}
 
-    {% assign image_files = site.static_files | where: "image", true %}
-    {% for myimage in image_files %}
-        <img src="https://s3.amazonaws.com/ranjacob.ca/{{ myimage.name }}" ></img>
-    {% endfor %}
+    <div id="images">
+      {% assign image_files = site.static_files | where: "image", true %}
+      {% for myimage in image_files %}
+          <img width="750px" loading="lazy" decoding="async"  src="https://s3.amazonaws.com/ranjacob.ca/{{ myimage.name }}" ></img>
+      {% endfor %}
+    </div>
 
 </div>
